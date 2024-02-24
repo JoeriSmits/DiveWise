@@ -10,7 +10,7 @@ const HeroHeaderModule = (): JSX.Element => {
                 <h2 className="text text-lg font-normal">Veilig, Kleinschalig en Persoonlijk - Wij Brengen Vertrouwen en Plezier in Je Duikavontuur!</h2>
                 <Button>Bekijk onze opleidingen</Button>
             </div>
-            <Image src="/assets/images/hero-header-diver.jpg" alt="Diver" width={592} height={592} />
+            <Image src="/assets/images/hero-header-diver.jpg" alt="A diver with a rebreather taking a photo of a ship wreck" width={592} height={592} />
         </div>
     );
 }
