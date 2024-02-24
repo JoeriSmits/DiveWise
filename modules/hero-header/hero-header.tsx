@@ -1,7 +1,7 @@
 import Button from "@/components/button/button";
 import Image from "next/image";
 
-const HeroHeader = (): JSX.Element => {
+const HeroHeaderModule = (): JSX.Element => {
     return (
         <div className="flex justify-between items-center">
             <div className="max-w-2xl space-y-6">
@@ -15,4 +15,4 @@ const HeroHeader = (): JSX.Element => {
     );
 }
 
-export default HeroHeader;
+export default HeroHeaderModule;
