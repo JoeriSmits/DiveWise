@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    font-size: 52px;
+    line-height: 56px;
+    @apply font-extrabold text-neutral-900;
+  }
+
+  h2 {
+    @apply text-4xl font-extrabold text-neutral-900;
+  }
+
+  h3 {
+    @apply text-2xl font-extrabold text-neutral-900;
+  }
+
+  h4 {
+    @apply text-xl font-semibold text-neutral-900;
+  }
+}
+
+.subheading {
+  @apply font-semibold text-primary-900 uppercase;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
