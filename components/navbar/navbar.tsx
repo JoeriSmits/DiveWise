@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 const NavBar = ({}): JSX.Element => {
     return (
@@ -6,10 +7,10 @@ const NavBar = ({}): JSX.Element => {
             <Image src="/assets/images/logo.svg" width={250} height={56} alt="Logo image of DiveWise Technical Diving" />
 
             <div className="flex space-x-3 md:space-x-8 text-neutral-800">
-                <a href="#">Home</a>
+                <Link href="/">Home</Link>
                 <a href="#">Missie</a>
                 <a href="#">Opleidingen</a>
-                <a href="#">Over Ons</a>
+                <Link href="/over_mij">Over Mij</Link>
                 <a href="#">Prijzen</a>
                 <a href="#">Contact</a>
             </div>

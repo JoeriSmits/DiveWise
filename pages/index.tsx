@@ -1,15 +1,10 @@
-import type { ReactElement } from 'react'
 import type { NextPageWithLayout } from './_app'
 import Layout from '@/components/layout'
 import HeroHeaderModule from '@/modules/hero-header/hero-header'
 import USPBlockModule from '@/modules/usp/usp-block'
 import QuoteModule from '@/modules/quote/quote'
  
-const Page: NextPageWithLayout = () => {
-  return <p>hello world</p>
-}
- 
-Page.getLayout = function getLayout(page: ReactElement) {
+const Home: NextPageWithLayout = () => {
   return (
     <Layout>
       <HeroHeaderModule/>
@@ -18,5 +13,6 @@ Page.getLayout = function getLayout(page: ReactElement) {
     </Layout>
   )
 }
+
  
-export default Page
+export default Home
