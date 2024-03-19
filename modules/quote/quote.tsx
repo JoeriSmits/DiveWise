@@ -1,10 +1,9 @@
 import Image from "next/image";
 
-const QuoteModule = ({ className }: { className?: string }): JSX.Element => {
-    console.log(className);
+const QuoteModule = (): JSX.Element => {
     return (
-        <div className={`w-full relative pl-12 pt-16 flex space-x-8 ${className}`}>
-            <Image src="/assets/icons/quote.svg" alt="Quote" width={50} height={50} className="mx-auto left-0 top-16 absolute" />
+        <div className="relative md:pl-12 md:pt-16 grid grid-cols-1 items-center md:grid-cols-2 md:gap-x-8">
+            <Image src="/assets/icons/quote.svg" alt="Quote" width={50} height={50} className="hidden md:inline mx-auto left-0 top-16 absolute" />
 
             <blockquote className="space-y-6">
                 <h3>Duiken met JJ-CCR Rebreathers in Hemmoor: Een Avontuurlijke Opleiding met Onvergetelijke Duiken tot 60 Meter Diepte!</h3>
@@ -16,7 +15,7 @@ const QuoteModule = ({ className }: { className?: string }): JSX.Element => {
                 </div>
             </blockquote>
 
-            <Image src="/assets/images/quotes/jan_mulder.jpg" alt="Jan Mulder" width={555} height={368}/>
+            <Image src="/assets/images/quotes/jan_mulder.jpg" className="w-full" alt="Jan Mulder" width={555} height={368}/>
         </div>
     );
 }

@@ -9,7 +9,7 @@ const USPBlockModule = (): JSX.Element => {
                 <h2 className="max-w-xl mx-auto">Duik Dieper in Wat Ons Bijzonder Maakt!</h2>
             </div>
 
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 md:grid-cols-3">
                 <USP image="/assets/icons/smile.svg" alt="Icon of a smiley">
                     <h3>Veilig, informatief en plezierig</h3>
                     <p>Onze missie is het aanbieden en verzorgen van veilige, informatieve maar vooral plezierige Technische en Rebreather duikprogramma's.</p>
