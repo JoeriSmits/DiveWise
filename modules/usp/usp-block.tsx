@@ -1,5 +1,4 @@
 import USP from "@/components/usp/usp";
-import Image from "next/image";
 
 const USPBlockModule = (): JSX.Element => {
     return (
@@ -12,11 +11,11 @@ const USPBlockModule = (): JSX.Element => {
             <div className="grid grid-cols-1 md:grid-cols-3">
                 <USP image="/assets/icons/smile.svg" alt="Icon of a smiley">
                     <h3>Veilig, informatief en plezierig</h3>
-                    <p>Onze missie is het aanbieden en verzorgen van veilige, informatieve maar vooral plezierige Technische en Rebreather duikprogramma's.</p>
+                    <p>Onze missie is het aanbieden en verzorgen van veilige, informatieve maar vooral plezierige Technische en Rebreather duikprogramma&apos;s.</p>
                 </USP>
                 <USP image="/assets/icons/shield.svg" alt="Icon of a shield">
                     <h3>Vertrouwen</h3>
-                    <p>Deze opleidingsprogramma's zullen een ieder het vertrouwen geven om op een veilige en verantwoorde wijze te duiken in een mindere of meerdere uitdagende omgeving.</p>
+                    <p>Deze opleidingsprogramma&apos;s zullen een ieder het vertrouwen geven om op een veilige en verantwoorde wijze te duiken in een mindere of meerdere uitdagende omgeving.</p>
                 </USP>
                 <USP image="/assets/icons/shaking-hands.svg" alt="Icon of shaking hands">
                     <h3>Persoonlijk</h3>
