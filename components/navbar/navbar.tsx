@@ -10,7 +10,7 @@ const NavBar = ({}): JSX.Element => {
 
             <div className="flex space-x-3 md:space-x-8 text-neutral-800">
                 <Link href="/">Home</Link>
-                <a href="#">Missie</a>
+                <Link href="/missie">Missie</Link>
                 <a href="#">Opleidingen</a>
                 <Link href="/over-mij">Over Mij</Link>
                 <a href="#">Prijzen</a>
