@@ -8,7 +8,7 @@ const NavBar = ({}): JSX.Element => {
                 <Image src="/assets/images/logo.svg" width={250} height={56} alt="Logo image of DiveWise Technical Diving" />
             </Link>
 
-            <div className="flex space-x-3 md:space-x-8 text-neutral-800">
+            <div className="flex space-x-2 md:space-x-8 text-neutral-800">
                 <Link href="/">Home</Link>
                 <Link href="/missie">Missie</Link>
                 <Link href="/opleidingen">Opleidingen</Link>
