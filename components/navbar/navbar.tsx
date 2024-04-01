@@ -13,8 +13,8 @@ const NavBar = ({}): JSX.Element => {
                 <Link href="/missie">Missie</Link>
                 <Link href="/opleidingen">Opleidingen</Link>
                 <Link href="/over-mij">Over Mij</Link>
-                <a href="#">Prijzen</a>
-                <a href="#">Contact</a>
+                <Link href="/prijzen">Prijzen</Link>
+                <Link href="/contact">Contact</Link>
             </div>
         </div>
     );
