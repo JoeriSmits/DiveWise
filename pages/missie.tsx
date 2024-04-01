@@ -2,8 +2,10 @@ import BodyText from '@/components/bodytext/bodytext'
 import type { NextPageWithLayout } from './_app'
 import Layout from '@/components/layout'
 import Image from 'next/image'
+import CLink from '@/components/clink/clink'
+import Button from '@/components/button/button'
 
-const OverMij: NextPageWithLayout = () => {
+const Mission: NextPageWithLayout = () => {
     return (
         <Layout>
             <div className="max-w-screen-md mx-auto">
@@ -16,6 +18,11 @@ const OverMij: NextPageWithLayout = () => {
                         <p>Bij Divewise begrijpen we dat veiligheid en kennis hand in hand gaan. Daarom leggen we een sterke nadruk op milieubewustzijn en het behoud van de onderwateromgeving, zodat toekomstige generaties ook van de wonderen van de oceaan kunnen genieten. Onze cursussen zijn zorgvuldig ontworpen om niet alleen technische vaardigheden te verbeteren maar ook om duikers bewust te maken van de impact die ze hebben op de mariene ecosystemen.</p>
                         <p>Door deel te nemen aan onze programma's, worden duikers onderdeel van een exclusieve gemeenschap die de lat hoger legt in de wereld van het technisch duiken. Divewise is niet alleen je duikschool; het is je partner in avontuur, een plek waar je wordt uitgedaagd om je grenzen te verleggen en nieuwe, adembenemende onderwaterlandschappen te ontdekken. Met Divewise duik je niet alleen in de diepte; je duikt in een leven van eindeloze ontdekkingen en avonturen, ondersteund door onze toewijding aan uitmuntendheid en een voortdurende passie voor de zee.</p>
                         <p>Dit is de wereld van Divewise – waar jouw passie voor technisch duiken wordt versterkt door onze expertise, innovatie en een onwrikbare toewijding aan het creëren van een veilige, verrijkende en onvergetelijke duikervaring.</p>
+                        <p>
+                            <CLink href="/opleidingen">
+                                <Button>Bekijk welke opleidingen wij te bieden hebben</Button>
+                            </CLink>
+                        </p>
                     </div>
                 </BodyText>
             </div>
@@ -24,4 +31,4 @@ const OverMij: NextPageWithLayout = () => {
 }
 
 
-export default OverMij
+export default Mission
